@@ -191,7 +191,7 @@
 
                         <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
                             <ContentTemplate>
-                                <div class="table-responsive" style="width: 63%; display: inline-block;">
+                                <div class="table-responsive" style="width: 66%; display: inline-block;">
 
                                     <div class="alert alert-secondary" role="alert" style="display: inline-block; width: 100%; text-align: center">
                                         List of All Products. 
@@ -267,7 +267,7 @@
                                         </UpdateParameters>
                                     </asp:SqlDataSource>
                                 </div>
-                                <div style="display: inline-block; width: 34%; vertical-align: top;">
+                                <div style="display: inline-block; width: 33%; vertical-align: top;">
                                     <asp:Table ID="Table1" runat="server" Width="100%"   CssClass="p-3 mb-2 bg-secondary text-white ftb rounded" CellPadding="9">
                                         <asp:TableRow>
                                             <asp:TableCell ColumnSpan="2" HorizontalAlign="Center" CssClass="thbrow" Font-Bold="true" >Insert New Product</asp:TableCell>
