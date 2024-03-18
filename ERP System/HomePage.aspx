@@ -90,14 +90,14 @@
         <%--Navbar buttons--%>
 
         <div class="row">
-            <div class="col-3">
+            <div class="col-lg-3">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <button class="nav-link active" id="v-pills-home-tab" data-toggle="pill" data-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Dashboard</button>
                     <button class="nav-link" id="v-pills-profile-tab" data-toggle="pill" data-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Product Management</button>
                     <button class="nav-link" id="v-pills-messages-tab" data-toggle="pill" data-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Order Management</button>
                 </div>
             </div>
-            <div class="col-9">
+            <div class="col-lg-9">
                 <div class="tab-content" id="v-pills-tabContent">
 
                     <%--Dashboard tab--%>
